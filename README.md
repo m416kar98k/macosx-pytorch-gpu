@@ -1,10 +1,10 @@
 The latest MacBook Pro with NVIDIA Graphics card is MacBook Pro Mid-2015 with i7-4870HQ and GT 750M. Unfortunately, GT 750M has a compute capability of 3.0, which has been dropped from Facebook. You have to build from source to get a CUDA support. I followed instructions from https://github.com/TomHeaven/pytorch-osx-build. His v1.4.0 release will return **True** for ```torch.cuda.is_available()``` function but will not actually work in model. You will get an error ```no kernel image is available for execution on the device``` because your card is recognized but not supported.
 
 ## Why I build for v1.4.0?
-Because my PI and his group are working on a project called NiftyTorch. It is still at developing stage and requires PyTorch v1.4.0 by default.
+Because my PI and his group are working on https://github.com/NiftyTorch/NiftyTorch.v.0.1. It is still at developing stage and requires PyTorch v1.4.0 by default.
 
 ## What is different from TomHeaven's build?
-My release would support compute capability 3.0. If your graphics card is other than 3.0, please go to https://github.com/TomHeaven/pytorch-osx-build.
+My release would support compute capability 3.0. If your graphics card is other than 3.0, please use TomHeaven's build.
 
 ## Why am I not pulling merge request as a patch?
 My build does not fit a regular format. I believe his build is more stable.
