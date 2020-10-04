@@ -4,10 +4,7 @@ The latest MacBook Pro with NVIDIA Graphics card is MacBook Pro Mid-2015 with i7
 Because my PI and his group are working on https://github.com/NiftyTorch/NiftyTorch.v.0.1. It is still at developing stage and requires PyTorch v1.4.0 by default.
 
 ## What is different from TomHeaven's build?
-My release would support compute capability 3.0. If your graphics card is other than 3.0, please use TomHeaven's build.
-
-## Why am I not pulling merge request as a patch?
-My build does not fit a regular format. I believe his build is more stable.
+My release would support compute capability of 3.0. If your graphics card is other than compute capability of 3.0, please use TomHeaven's build.
 
 ## What is my desktop specification?
 My desktop is very similar with Macbook Pro Mid 2015. It is also based on Haswell E3-1220 v3 and a Kepler GTX 760. I try to keep consistent with TomHeaven's build. If you fulfill his requirement, you can continue with my build. I build with **Python 3.7**, **CUDA 10.0**, **CUDNN 7.4**.
