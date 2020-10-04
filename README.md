@@ -7,7 +7,7 @@ Because my PI and his group are working on https://github.com/NiftyTorch/NiftyTo
 My release would support compute capability of 3.0. If your graphics card is other than compute capability of 3.0, please use TomHeaven's build.
 
 ## What is my desktop specification?
-My desktop is very similar with Macbook Pro Mid 2015. It is also based on Haswell E3-1220 v3 and a Kepler GTX 760. I try to keep consistent with TomHeaven's build. If you fulfill his requirement, you can continue with my build. I build with **Python 3.7**, **CUDA 10.0**, **CUDNN 7.4**.
+My desktop with E3-1220 v3 and GTX 760 is very similar with Macbook Pro Mid 2015. I keep my requirement consistent with TomHeaven's build. If you fulfill his requirement, you can continue with my build. I build with **Python 3.7**, **CUDA 10.0**, **CUDNN 7.4**.
 
 ## What else do you need to do after pip install?
 Install libomp and add CUDNN lib to your LD_LIBRARY_PATH.
