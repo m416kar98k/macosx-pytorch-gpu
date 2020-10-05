@@ -1,4 +1,4 @@
-PyTorch GPU version is not natively supported on macOS. Furthermore, MacBook Pro GT 750M is also dropped due to its cc deficiency. The release is going to build from source in a similar environment and help developers save time from installation.
+PyTorch GPU version is not natively supported on macOS. Furthermore GT 750M does not support PyTorch GPU version due to its cc deficiency. The release is going to build from source in a similar environment and help developers save time from installation.
 
 ## Why I build for v1.4.0 not further version
 
