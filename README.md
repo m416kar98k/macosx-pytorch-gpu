@@ -12,6 +12,5 @@ My desktop with E3-1220 v3 and GTX 760 is very similar with Macbook Pro Mid 2015
 
 ## Installation
 
-```brew install libomp
-
-export LD_LIBRARY_PATH=/path-to-cudnn/lib:${LD_LIBRARY_PATH}```
+```brew install libomp```
+```export LD_LIBRARY_PATH=/path-to-cudnn/lib:${LD_LIBRARY_PATH}```
