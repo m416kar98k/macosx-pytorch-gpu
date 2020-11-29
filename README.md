@@ -2,4 +2,4 @@ PyTorch GPU is not natively supported on macOS due to compute capability deficie
 
 ## System Requirement
 
-**Python 3.7**, **CUDA 10.0**, **CUDNN 7.4** or (2) **Python 3.6**, **CUDA 10.1**, **CUDNN 7.6**
+**Python 3.7**, **CUDA 10.0**, **CUDNN 7.4** or **Python 3.6**, **CUDA 10.1**, **CUDNN 7.6**
