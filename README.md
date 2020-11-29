@@ -1,4 +1,4 @@
-PyTorch GPU is not natively supported on macOS due to GT 750M compute capability deficiency. The release is a re-build from source with a similar environment and help developers save time from installation.
+PyTorch GPU is not natively supported on macOS due to GT 750M compute capability deficiency. The release is a re-build of PyTorch 1.4.0 from source with CUDA devices of compute capability 3.0.
 
 ## System Requirement
 
